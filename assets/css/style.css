@@ -17,8 +17,8 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* MAIN */
@@ -155,35 +155,35 @@ body {
 }
 
 .bottom1 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .bottom1 > img {
-    width: 100%;
+  width: 100%;
 }
 
 .bottom2 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .bottom2 > img {
-    width: 100%;
+  width: 100%;
 }
 
 .bottom3 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .bottom3 > img {
-    width: 100%;
+  width: 100%;
 }
 
 .bottom4 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .bottom4 > img {
-    width: 100%;
+  width: 100%;
 }
 
 /* FOOTER */
@@ -208,5 +208,5 @@ body {
 }
 
 .site-map {
-    float: right;
+  float: right;
 }
