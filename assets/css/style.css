@@ -1,7 +1,7 @@
 html {
   font-family: 'Lato', sans-serif;
-  width: 1462px;
-  height: 945px;
+  width: 100vw;
+  height: auto;
 }
 
 * {
@@ -12,8 +12,13 @@ html {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: auto;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 /* MAIN */
@@ -24,7 +29,7 @@ html {
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
-  width: 1462px;
+  width: 100%;
   height: 680px;
   margin: 0 auto;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -143,21 +148,48 @@ html {
   grid-row: 2/3;
   column-gap: 2px;
   display: flex;
-  width: 1460px;
-  margin: 0 auto;
+  justify-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+  flex-basis: content;
 }
 
-.products > img {
-  object-fit: cover;
-  width: 100%;
-  max-height: 100%;
+.bottom1 {
+    flex-grow: 1;
+}
+
+.bottom1 > img {
+    width: 100%;
+}
+
+.bottom2 {
+    flex-grow: 1;
+}
+
+.bottom2 > img {
+    width: 100%;
+}
+
+.bottom3 {
+    flex-grow: 1;
+}
+
+.bottom3 > img {
+    width: 100%;
+}
+
+.bottom4 {
+    flex-grow: 1;
+}
+
+.bottom4 > img {
+    width: 100%;
 }
 
 /* FOOTER */
 
 .footer-appl {
   width: 100%;
-  margin-left: 10px;
   display: block;
   margin-top: 1em;
 }
