@@ -27,6 +27,7 @@ html {
   height: 680px;
   margin: 0 auto;
   border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 .main-text {
@@ -65,22 +66,6 @@ html {
 }
 
 /* NAVBAR */
-
-/* .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    width: 70%;
-    height: 36px;
-    border-radius: 6px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 7em;
-    margin-bottom: 3em;
-    background-color: gray;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(rgb(102, 102, 102) 0%, rgb(94, 94, 94) 50%, rgb(112, 112, 112) 51%, rgb(128, 128, 128) 100%);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px
-} */
 
 .navbar {
     display: grid;
