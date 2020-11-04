@@ -1,1 +1,65 @@
-font-family: 'Lato', sans-serif;
+html {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main .main-bg {
+  background: url(../imgs/main.jpg);
+  background-repeat: no-repeat;
+  width: 75%;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid black;
+  background-position: 50% 100%;
+  margin-top: 1em;
+  background-size: cover;
+}
+
+.products {
+  display: grid;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-appl {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 1em;
+}
+
+.footer-appl > * {
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-appl  a {
+  color: #0088ce;
+  text-decoration: none;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.footer-1 > div > a {
+  margin-right: 0.5em;
+  border-left: 0.5px solid #cccccc ;
+  padding-left: 0.5em;
+
+}
+
