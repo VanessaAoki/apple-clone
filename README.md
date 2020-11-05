@@ -1,7 +1,7 @@
 # Apple.com clone
 This project aims to clone apple.com's homepage using HTML, CSS, flexbox, grid, backgrounds and gradients 
 
-![screenshot](./assets/imgs/screenshot.png)
+![screenshot](./assets/imgs/screenshot1.png)
 
 ## Built With
 
