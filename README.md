@@ -6,7 +6,7 @@ This project aims to clone apple.com's homepage using HTML, CSS, flexbox, grid, 
 ## Built With
 
 - HTML 
-- CSS layouts(flexbox and grid)
+- CSS (flexbox and grid)
 - Background (images and gradient)
 
 ## Live Demo
@@ -51,8 +51,7 @@ https://github.com/VanessaAoki/apple-clone
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]
-(https://github.com/VanessaAoki/apple-clone/issues)
+Feel free to check the [issues page](https://github.com/VanessaAoki/apple-clone/issues)
 
 ## Show your support
 
