@@ -20,19 +20,31 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Live Server plugin for Visual Studio Code 
+- Any internet browser (Firefox, Google Chrome, Opera...).
 
-### Setup
+or 
+
+- Live Server plugin for Visual Studio Code.
+
+### Setup #1
+
+
+1 - Download the code or copy the repository to your computer;
+
+2 - Run the index.html file.
+
+
+### Setup #2
+
 
 1- Clone the repository
 ```
-https://github.com/VanessaAoki/apple-clone
+https://github.com/VanessaAoki/Mint_Clone.git
 ```
 
-2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server"
+2- Open the folder on VS Code, right click the index.html file and click on "Open With Live Server";
 
 3- Everything should be running by now. 
-
 
 ## Authors
 
@@ -59,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](.License.md)
+This project is [MIT](.License.md) 
